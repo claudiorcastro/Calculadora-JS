@@ -1,17 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-image: url('https://i.gifer.com/origin/37/376a66dacbd417010b5eda0d46ada276.gif');
   }
   
   h1 {
     text-align: center;
     margin-top: 30px;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-top: 10px;
-    color: #666;
+    color: red;
+    text-decoration: underline;
   }
   
   .calculadora {
@@ -21,6 +17,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity:0.5;
   }
   
   #pantalla {
@@ -29,6 +26,8 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: right;
+    background-color: black;
+    color: white;
   }
   
   input[type="button"] {
@@ -36,15 +35,16 @@ body {
     height: 40px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-size: 16px;
-    background-color: #eee;
+    font-size: 20px;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   
   input[type="button"]:hover {
-    background-color: #ddd;
+    background-color: #f16060;
   }
   
   input[type="button"]:last-child {
